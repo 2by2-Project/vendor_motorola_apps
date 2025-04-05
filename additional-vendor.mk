@@ -23,11 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/additional/proprietary/product/media/audio/ringtones/Moto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Moto.ogg \
     vendor/motorola/additional/proprietary/product/media/audio/ringtones/Natural.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Natural.ogg \
     vendor/motorola/additional/proprietary/product/media/audio/ringtones/Simple.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Simple.ogg \
+    vendor/motorola/additional/proprietary/system/bin/dropboxhelper:$(TARGET_COPY_OUT_SYSTEM)/bin/dropboxhelper \
     vendor/motorola/additional/proprietary/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/additional/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/additional/proprietary/system/etc/permissions/moto-checkin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-checkin.xml \
     vendor/motorola/additional/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
     vendor/motorola/additional/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
+    vendor/motorola/additional/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
     vendor/motorola/additional/proprietary/system_ext/etc/permissions/afw-com.motorola.livewallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/afw-com.motorola.livewallpaper.xml \
     vendor/motorola/additional/proprietary/system_ext/etc/permissions/feature-com.motorola.motolivewallpaper3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/feature-com.motorola.motolivewallpaper3.xml \
     vendor/motorola/additional/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.livewallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.livewallpaper.xml
@@ -43,6 +45,4 @@ PRODUCT_PACKAGES += \
     com.motorola.motosignature \
     moto-checkin \
     moto-core_services \
-    moto-settings \
-    dropboxhelper \
-    motsettings
+    moto-settings

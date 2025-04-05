@@ -13,7 +13,6 @@ android_app_import {
 	apk: "proprietary/system/app/MotoSignature2App/MotoSignature2App.apk",
 	preprocessed: true,
 	presigned: true,
-	certificate: "NODEXPO",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -25,7 +24,6 @@ android_app_import {
 	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
 	preprocessed: true,
 	presigned: true,
-	certificate: "NODEXPO",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -37,7 +35,6 @@ android_app_import {
 	apk: "proprietary/product/app/TimeWeather/TimeWeather.apk",
 	preprocessed: true,
 	presigned: true,
-	certificate: "NODEXPO",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -50,7 +47,6 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/MotoLiveWallpaper3/MotoLiveWallpaper3.apk",
 	preprocessed: true,
 	presigned: true,
-	certificate: "NODEXPO",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -62,10 +58,10 @@ android_app_import {
 	name: "MotorolaSettingsProvider",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
-	certificate: "NODEXPO",
 	dex_preopt: {
 		enabled: false,
 	},
+	certificate: "platform",
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -104,20 +100,5 @@ dex_import {
 	name: "moto-settings",
 	owner: "motorola",
 	jars: ["proprietary/system/framework/moto-settings.jar"],
-}
-
-sh_binary {
-	name: "dropboxhelper",
-	owner: "motorola",
-	src: "proprietary/system/bin/dropboxhelper",
-	filename: "dropboxhelper",
-}
-
-sh_binary {
-	name: "motsettings",
-	owner: "motorola",
-	src: "proprietary/system_ext/bin/motsettings",
-	filename: "motsettings",
-	system_ext_specific: true,
 }
 
