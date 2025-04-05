@@ -40,6 +40,9 @@ system_ext/bin/motsettings
 system/framework/com.motorola.motosignature.jar
 system/etc/permissions/com.motorola.motosignature.xml
 
+# MotoLauncher - Ported version
+system_ext/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk;MODULE=MotoLauncher3QuickStep;PRESIGNED;NODEXPO|e6b71b01c0986f0f2372f7a829d04296880c0f4d
+
 # MotoLiveWallpapers
 system_ext/etc/permissions/feature-com.motorola.motolivewallpaper3.xml
 system_ext/etc/permissions/privapp-permissions-com.motorola.livewallpaper.xml

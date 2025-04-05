@@ -42,6 +42,19 @@ android_app_import {
 }
 
 android_app_import {
+	name: "MotoLauncher3QuickStep",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "MotoLiveWallpaper3",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/MotoLiveWallpaper3/MotoLiveWallpaper3.apk",

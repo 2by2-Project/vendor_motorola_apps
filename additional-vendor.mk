@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     MotoSignature2App \
     MotoSignatureApp \
     TimeWeather \
+    MotoLauncher3QuickStep \
     MotoLiveWallpaper3 \
     MotorolaSettingsProvider \
     com.motorola.android.dropboxhelper \
