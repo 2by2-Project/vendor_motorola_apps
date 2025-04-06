@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=additional
+DEVICE=apps
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
