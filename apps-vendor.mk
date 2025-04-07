@@ -9,6 +9,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/apps/proprietary/product/etc/default-permissions/default-permission-com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permission-com.motorola.timeweatherwidget.xml \
     vendor/motorola/apps/proprietary/product/etc/permissions/com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.timeweatherwidget.xml \
     vendor/motorola/apps/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Alarm_Beep_01.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Beep_01.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Alarm_Beep_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Beep_02.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Alarm_Beep_03.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Beep_03.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Alarm_Buzzer.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Buzzer.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Alarm_Rooster_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Rooster_02.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Argon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Carbon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Carbon.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Helium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Helium.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Krypton.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Krypton.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Neon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Neon.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Osmium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Osmium.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Oxygen.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Oxygen.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/alarms/Platinum.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Platinum.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/notifications/Chime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Chime.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/notifications/Clear.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Clear.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/notifications/Element.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Element.ogg \
@@ -18,11 +31,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/apps/proprietary/product/media/audio/notifications/Natural.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Natural.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/notifications/Soft.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Soft.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Attentive.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Attentive.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ringtones/BalineseGamelan.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BalineseGamelan.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ringtones/BirdLoop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BirdLoop.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Hello.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hello.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Momentum.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Momentum.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Moto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Moto.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Natural.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Natural.ogg \
     vendor/motorola/apps/proprietary/product/media/audio/ringtones/Simple.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Simple.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Dock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Dock.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Effect_Tick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Effect_Tick.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/KeypressDelete.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressDelete.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/KeypressInvalid.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressInvalid.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/KeypressReturn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressReturn.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/KeypressSpacebar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressSpacebar.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/KeypressStandard.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressStandard.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Lock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Lock.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/LowBattery.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/LowBattery.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Trusted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Trusted.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Undock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Undock.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/Unlock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Unlock.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/VideoRecord.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoRecord.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/VideoStop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoStop.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/WirelessChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/WirelessChargingStarted.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_click.ogg \
+    vendor/motorola/apps/proprietary/product/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
     vendor/motorola/apps/proprietary/system/bin/dropboxhelper:$(TARGET_COPY_OUT_SYSTEM)/bin/dropboxhelper \
     vendor/motorola/apps/proprietary/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/apps/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \

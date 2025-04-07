@@ -1,6 +1,19 @@
 # All unpinned blobs below are extracted from fogos_g-user 14 U1UGS34.23-110-23-2 7dcf6d release-keys.
 
 # Moto Audio
+product/media/audio/alarms/Alarm_Beep_01.ogg
+product/media/audio/alarms/Alarm_Beep_02.ogg
+product/media/audio/alarms/Alarm_Beep_03.ogg
+product/media/audio/alarms/Alarm_Buzzer.ogg
+product/media/audio/alarms/Alarm_Rooster_02.ogg
+product/media/audio/alarms/Argon.ogg
+product/media/audio/alarms/Carbon.ogg
+product/media/audio/alarms/Helium.ogg
+product/media/audio/alarms/Krypton.ogg
+product/media/audio/alarms/Neon.ogg
+product/media/audio/alarms/Osmium.ogg
+product/media/audio/alarms/Oxygen.ogg
+product/media/audio/alarms/Platinum.ogg
 product/media/audio/notifications/Chime.ogg
 product/media/audio/notifications/Clear.ogg
 product/media/audio/notifications/Element.ogg
@@ -10,11 +23,30 @@ product/media/audio/notifications/Moto.ogg
 product/media/audio/notifications/Natural.ogg
 product/media/audio/notifications/Soft.ogg
 product/media/audio/ringtones/Attentive.ogg
+product/media/audio/ringtones/BalineseGamelan.ogg
+product/media/audio/ringtones/BirdLoop.ogg
 product/media/audio/ringtones/Hello.ogg
 product/media/audio/ringtones/Momentum.ogg
 product/media/audio/ringtones/Moto.ogg
 product/media/audio/ringtones/Natural.ogg
 product/media/audio/ringtones/Simple.ogg
+product/media/audio/ui/Dock.ogg
+product/media/audio/ui/Effect_Tick.ogg
+product/media/audio/ui/KeypressDelete.ogg
+product/media/audio/ui/KeypressInvalid.ogg
+product/media/audio/ui/KeypressReturn.ogg
+product/media/audio/ui/KeypressSpacebar.ogg
+product/media/audio/ui/KeypressStandard.ogg
+product/media/audio/ui/Lock.ogg
+product/media/audio/ui/LowBattery.ogg
+product/media/audio/ui/Trusted.ogg
+product/media/audio/ui/Undock.ogg
+product/media/audio/ui/Unlock.ogg
+product/media/audio/ui/VideoRecord.ogg
+product/media/audio/ui/VideoStop.ogg
+product/media/audio/ui/WirelessChargingStarted.ogg
+product/media/audio/ui/camera_click.ogg
+product/media/audio/ui/camera_focus.ogg
 
 # MotoCore
 system/framework/moto-checkin.jar
